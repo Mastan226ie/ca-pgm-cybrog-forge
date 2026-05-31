@@ -1,0 +1,36 @@
+.quote-section {
+    padding: 4rem 0;
+}
+
+.quote-block {
+    background: rgba(0, 255, 255, 0.02);
+    border-left: 4px solid var(--cyan);
+    padding: 3rem;
+    border-radius: 0 15px 15px 0;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.quote-text {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.quote-author {
+    font-family: var(--font-mono);
+    color: var(--cyan);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .quote-block {
+        padding: 2rem;
+    }
+    .quote-text {
+        font-size: 1.2rem;
+    }
+}

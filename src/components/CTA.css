@@ -1,0 +1,17 @@
+.cta-section {
+    text-align: center;
+    background: linear-gradient(180deg, transparent, rgba(0, 255, 255, 0.03));
+    padding: 8rem 0;
+    border-top: 1px solid rgba(0, 255, 255, 0.1);
+}
+
+.cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-content p {
+    color: var(--text-muted);
+    margin: 1.5rem 0 2.5rem;
+    font-size: 1.2rem;
+}
