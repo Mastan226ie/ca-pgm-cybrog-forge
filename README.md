@@ -2,6 +2,11 @@
 
 A modern React application built with Vite.
 
+## 🎬 Project Demo
+
+You can view a demonstration of the project here:  
+[View Demo Video](https://drive.google.com/file/d/1CYeNS-tcPGmAXa_KhfUtLgxezodj3TK6/view?usp=sharing)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
