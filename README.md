@@ -1,16 +1,56 @@
-# React + Vite
+# Cyborg Forge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built with Vite.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Prerequisites
 
-## React Compiler
+- Node.js (version 18+ recommended)
+- npm, yarn, pnpm, or bun
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository and navigate to the project folder:
+   ```bash
+   cd cyborg-forge
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+To start the development server, run:
+```bash
+npm run dev
+```
+
+This will start the Vite development server, usually accessible at `http://localhost:5173/`.
+
+### Building for Production
+
+To create a production-ready build, run:
+```bash
+npm run build
+```
+
+This will generate the built assets in a `dist` directory. You can preview the production build locally with:
+```bash
+npm run preview
+```
+
+## 🛠️ Scripts
+
+- `npm run dev` - Starts the development server.
+- `npm run build` - Builds the app for production.
+- `npm run lint` - Runs ESLint to check for code quality issues.
+- `npm run preview` - Previews the built production app locally.
+
+## 💻 Tech Stack
+
+- **React** 19
+- **Vite** 8
+- **ESLint** for code linting
